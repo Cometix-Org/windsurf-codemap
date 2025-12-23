@@ -103,6 +103,16 @@
             "Русский"
           ],
           "description": "Language for AI responses and generated content"
+        },
+        "codemap.suggestionRefresh": {
+          "type": "string",
+          "default": "auto",
+          "enum": [
+            "off",
+            "manual",
+            "auto"
+          ],
+          "description": "Suggestion refresh functionality mode: 'off' (disabled), 'manual' (manual only), or 'auto' (auto-refresh)."
         }
       }
     }
